@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+/* Header */
+
+.container {
+    width: 100%;
+    padding: 0 15px;
+
+    height: 40px;
+    position: absolute;
+
+}
+
+.logo {
+    float: left;
+    margin-left: 80px;
+} 
+.logo img {
+    height: 32px;
+}
+span {
+    font-size: 20px;
+}
+
+.header-right {
+    margin-right: 100px;
+    padding: 10px ;
+    float: right;
+    font-family: Verdana;
+    font-size: 15px;
+}
+
+.header-right a:active {
+    color: black;
+}
+
+.header-right a {
+    text-decoration: none;
+    color: azure;
+    padding: 10px;
+
+}
+
+/*Top Wrapper*/
+.top-wrapper {
+    height: 500px;
+    width: 100%;
+    background-color: #94be78;
+    
+}
+.copy-container {
+    border: 1px solid none;
+    height: 340px;
+    width: 50%;
+    position: relative;
+    margin: auto;
+    top: 150px;
+    font-family: "Comic Sans MS";
+    box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.6);
+}
+.copy-container h1 {
+    font-size: 17px;
+    padding-top: 10px;
+}
+.copy-container h2 {
+    font-size: 16px;
+    padding-left: 15px;
+    font-style: italic;
+}
+.copy-container h3 {
+    font-size: 14px;
+    color: #731435;
+}
+.copy-container p {
+    font-size: 14px;
+    padding-left: 15px;
+    font-style: italic;
+}
+.copy-container h1, h2, h3, p {
+    padding-left: 5px;
+}
+.subject {
+    padding-top: 15px;
+}
+.top {
+    height: 350px;
+    background-color: white;
+    width: 50%;
+    float: left;
+}
+.photo {
+    float: left;
+    width: 50%;
+    background-image: cover;
+    background-color: white;
+    height: 350px;
+    text-align: center;
+}
+.photo img {
+    width: 80%;
+    background-size: cover;
+    box-shadow: 0 4px 8px 1px rgba(0, 0, 0, 0.6);
+    position: relative;
+    top: 25px;
+}
+
+
+.social {
+    border: 1px solid none;
+    width: 50%;
+    height: 40px;
+    background-color: #94be78;
+    margin: auto;
+    box-shadow: 0 4px 8px 1px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.social li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px;
+    border-radius: 100%;
+    background: #ffffff;
+    margin-top: 5px;
+}
+
+.social a {
+    font-size: 25px;
+    display: block;
+    color: black;
+}
+
+.social i {
+    line-height: 30px;
+    height: 20px;
+}
+
+.social a {
+    color:  #000000;
+    font-size: 25px;
+    display: block;
+}
