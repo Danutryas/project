@@ -37,13 +37,13 @@ span {
 }
 
 .header-right a:active {
-    color: black;
+    color: white;
 }
 
 .header-right a {
     text-decoration: none;
     padding: 10px;
-
+    color: black;
 }
 
 /*Top Wrapper*/
