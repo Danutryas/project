@@ -7,11 +7,14 @@ li {
 }
 /* Header */
 
-.container {
+header {
     width: 100%;
-    padding: 0 15px;
     height: 40px;
-    position: fixed;
+
+}
+.container {
+
+    padding: 0 15px;
 }
 
 .logo {
@@ -39,7 +42,6 @@ span {
 
 .header-right a {
     text-decoration: none;
-    color: azure;
     padding: 10px;
 
 }
@@ -47,7 +49,9 @@ span {
 /*Top Wrapper*/
 .top-wrapper {
     height: 500px;
-    width: 100%;
+    padding-top: 50px;
+    width: 90%;
+    margin: 50px auto 0 auto;
     background-color: #94be78;
     
 }
@@ -144,3 +148,28 @@ span {
     font-size: 25px;
     display: block;
 }
+
+.introduction {
+    height: 400px;
+}
+main {
+    height : 1100px;
+}
+footer {
+    height: 30px;
+    width: 100%;
+    background-image: url(assets/1.jpg);
+    background-size: cover;
+}
+.footer-logo {
+    text-align: center;
+    color: azure;
+}
+.footer-logo p {
+    padding: 4px;
+    color: black;
+    font-size: 20px;
+}
+
+
+
